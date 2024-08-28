@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Skills Web Design competition",
+    "description": "For all three years of high school, I competed in the Skills Canada Alberta web development competition using Javascript and the Vue.js framework. The goal was to make a storefront with reviews, and then change it in one to five days to fit a certain company. For the first two years, I built a JSON-based REST API using Nodejs to work with a PostgreSQL database and integrated a 3rd party API called Stitch, and used Postman for testing. In the third year, I integrated a Firebase database to store the data. For all three years, I was awarded a medal, even winning gold one year, which made me very proud of how I applied my skills.",
+    "link": "http://skills-comp-2021.s3-website-us-east-1.amazonaws.com/",
+    "github": "https://github.com/samgcode/skills-comp-2022",
+    "images": ["/skills_home.png", "/skills_reviews.png", "/skills_about.png"],
+    "tags": ["Javascript", "Vue", "NodeJS", "API", "PostgreSQL"]
+    }, {
+    "name": "RFID Check in device",
+    "description": "In grade 12 I made a project for my school for the teachers to scan their RFID tags to check-in and out of the system, so other teachers can know who is in that day. This included a Vue.js frontend UI and a REST API using MongoDB for storage. The system was running on a Raspberry Pi, and had to interact with the screen as well as the RFID reader. From this project I gained a lot of experience working with Linux environments, and using Docker containers for certain parts of the project.",
+    "images": ["/rfid_hello.png", "/rfid_symptoms.png", "/rfid_new.png"],
+    "github": "https://github.com/samgcode/rfid_project",
+    "tags": ["Javascript", "Vue", "NodeJS", "API", "MongoDB", "Linux", "Docker"]
+  }, {
+    "name": "Portfolio Website",
+    "description": "",
+    "github": "https://github.com/samgcode/",
+    "tags": ["Javascript", "React", "NodeJS", "TailwindCSS"]
+  }
+]
