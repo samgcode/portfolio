@@ -1,21 +1,44 @@
 [
   {
-    "name": "Skills Web Design competition",
-    "description": "For all three years of high school, I competed in the Skills Canada Alberta web development competition using Javascript and the Vue.js framework. The goal was to make a storefront with reviews, and then change it in one to five days to fit a certain company. For the first two years, I built a JSON-based REST API using Nodejs to work with a PostgreSQL database and integrated a 3rd party API called Stitch, and used Postman for testing. In the third year, I integrated a Firebase database to store the data. For all three years, I was awarded a medal, even winning gold one year, which made me very proud of how I applied my skills.",
-    "link": "http://skills-comp-2021.s3-website-us-east-1.amazonaws.com/",
-    "github": "https://github.com/samgcode/skills-comp-2022",
-    "images": ["/skills_home.png", "/skills_reviews.png", "/skills_about.png"],
-    "tags": ["Javascript", "Vue", "NodeJS", "API", "PostgreSQL"]
-    }, {
+    "name": "Portfolio Website",
+    "description": "I built this website to showcase a bunch of the projects I have done. I made it using React and Tailwind CSS.",
+    "github": "https://github.com/samgcode/portfolio",
+    "tags": ["Javascript", "React", "NodeJS", "TailwindCSS", "NextJS"]
+  }, {
     "name": "RFID Check in device",
     "description": "In grade 12 I made a project for my school for the teachers to scan their RFID tags to check-in and out of the system, so other teachers can know who is in that day. This included a Vue.js frontend UI and a REST API using MongoDB for storage. The system was running on a Raspberry Pi, and had to interact with the screen as well as the RFID reader. From this project I gained a lot of experience working with Linux environments, and using Docker containers for certain parts of the project.",
     "images": ["/rfid_hello.png", "/rfid_symptoms.png", "/rfid_new.png"],
     "github": "https://github.com/samgcode/rfid_project",
     "tags": ["Javascript", "Vue", "NodeJS", "API", "MongoDB", "Linux", "Docker"]
   }, {
-    "name": "Portfolio Website",
-    "description": "",
-    "github": "https://github.com/samgcode/",
-    "tags": ["Javascript", "React", "NodeJS", "TailwindCSS"]
+    "name": "3D rendering engine",
+    "description": "Over the course of about 3 months, with some help from my friend I created a 3D rendering engine from scratch in Java. From this I learned a lot about graphics programming, which was my goal for the project. It is very much not optimized, or very practical, especially since it doesn't use the GPU at all. I have learned much more about graphics programming since then, but I still think it was good for going in with basically no experience.",
+    "images": ["/3d_1.png", "/3d_2.png"],
+    "github": "https://github.com/agoogaloo/Swing3d",
+    "tags": ["Java", "Graphics", "Game Dev"]
+  }, {
+    "name": "Skills Web Design competition",
+    "description": "For all three years of high school, I competed in the Skills Canada Alberta web development competition using Javascript and the Vue.js framework. The goal was to make a storefront with reviews, and then change it in one to five days to fit a certain company. For the first two years, I built a JSON-based REST API using Nodejs to work with a PostgreSQL database and integrated a 3rd party API called Stitch, and used Postman for testing. In the third year, I integrated a Firebase database to store the data. For all three years, I was awarded a medal, even winning gold one year, which made me very proud of how I applied my skills.",
+    "link": "http://skills-comp-2021.s3-website-us-east-1.amazonaws.com/",
+    "github": "https://github.com/samgcode/skills-comp-2022",
+    "images": ["/skills_home.png", "/skills_reviews.png", "/skills_about.png"],
+    "tags": ["Javascript", "Vue", "NodeJS", "API", "PostgreSQL"]
+  }, {
+    "name": "High School Robotics Team",
+    "description": "For several years I was the lead programmer on my high school robotics team, which allowed me to improve multiple skills such as collaboration and leadership skills. I was responsible for communicating with the other parts of the team and the other programmers about what needed to be implemented. We then wrote the software in Java, making use of complex systems such as computer vision, and multithreading. Before joining the robotics club I had never used Java, but I was able to apply my knowledge from previous languages I worked with to learn what I needed to in the short time I had.",
+    "github": "https://github.com/samgcode/FtcRobotController",
+    "tags": ["Java", "Computer Vision", "Concurrency", "Team Work"]
+  }, {
+    "name": "LED Christmas Hat",
+    "description": "One year for Christmas I built this Santa hat which has addressable LEDs and is controlled by an Arduino microcontroller. It has buttons to switch between different patterns. For this project I had to learn how to manipulate all the LEDs individually, and general embedded development.",
+    "images": ["/hat3.jpg", "/hat1.jpg", "/hat2.jpg" ],
+    "tags": ["C", "C++", "Arduino", "Microcontrollers"]
+  }, {
+    "name": "Celeste Deathlink Mod",
+    "description": "Deathlink is a mod for the video game Celeste, which adds a new game mode for multiplayer where if one player dies, everyone dies. It creates some fun chaotic gameplay and is a really interesting challenge. Before this mod I had never made a Celeste mod before, so I had to learn everything needed for this project in the two weeks I was making it. I learned a lot about C# and how to use reflection and runtime hooks for mod development.",
+    "link": "https://gamebanana.com/mods/546779",
+    "github": "https://github.com/samgcode/Deathlink",
+    "images": ["/deathlink1.jpg", "/deathlink2.jpg", "/deathlink3.jpg", "/deathlink4.jpg", "/deathlink5.jpg"],
+    "tags": ["C#", ".Net", "Modding"]
   }
 ]
