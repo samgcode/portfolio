@@ -8,7 +8,7 @@ function Carousel({ slides }) {
       {
         slides.map((image, i) => {
           return (
-            <div id={`slide${i}`} className="carousel-item relative w-full h-72">
+            <div id={`slide${i}`} key={`slide${i}`} className="carousel-item relative w-full h-72">
               <Image
                 src={image}
                 width={1184}
